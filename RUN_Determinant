@@ -1,0 +1,8 @@
+#!/bin/bash
+javac *.java
+
+for i in {0..7}
+  do
+    echo "======================================"
+    java Determinant Tests/test$i.txt
+  done
